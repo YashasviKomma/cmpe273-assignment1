@@ -10,7 +10,7 @@ def hello():
 @app.route('/v1/<filename>')
 def gitintegration(filename):
     print filename
-    y=Github("yashasvi.komma@sjsu.edu","NiRmAlA@18")
+    y=Github("yashasvi.komma@sjsu.edu","")
     print sys.argv
     string = sys.argv[1]
     print string
